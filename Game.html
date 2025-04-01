@@ -157,6 +157,26 @@
             color: #777;
             margin-top: 20px;
         }
+
+        #backToTopBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            border: none;
+            outline: none;
+            background-color: #940000;
+            color: white;
+            cursor: pointer;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        #backToTopBtn:hover {
+            background-color: #640000;
+        }
     </style>
 </head>
 
@@ -338,7 +358,11 @@
             <button class="load-more-btn" onclick="loadMore()">Load More</button>
         </div>
     </div>
+
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Top</button>
+
     <footer>&copy; 2025 Crab Review - All Rights Reserved</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
@@ -353,6 +377,22 @@
             var loadMoreBtn = document.querySelector(".load-more-btn");
             moreNews.style.display = "block";
             loadMoreBtn.style.display = "none";
+        }
+        let mybutton = document.getElementById("backToTopBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     </script>
 </body>
