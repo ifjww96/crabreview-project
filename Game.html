@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Crab Review</title>
+    <link rel="icon" type="image/png" href="Crab.png">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            font-family: sans-serif;
+            margin: 0;
+            padding-top: 101px;
+            text-align: center;
+        }
+
+        .main-header {
+            background-color: #000000;
+            color: aliceblue;
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+            padding: 0;
+            margin: auto;
+        }
+
+        .logo {
+            max-height: 40px;
+            margin-right: 15px;
+        }
+
+        .site-name {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: #940000;
+            overflow: hidden;
+            list-style: none;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #640000;
+            color: rgb(255, 255, 255);
+        }
+
+        .content {
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1200px;
+        }
+
+        .content-header {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .news-item {
+            background-color: #222;
+            border-radius: 20px;
+            margin-bottom: 15px;
+            padding: 15px;
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 15px;
+            align-items: start;
+            text-align: left;
+        }
+
+        .news-item a {
+            text-decoration: none;
+        }
+
+        .image-container {
+            width: 400px;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .news-item-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .news-item-title a {
+            font-size: 1em;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: aliceblue;
+        }
+
+        .news-item-excerpt {
+            line-height: 1.6;
+        }
+
+        .load-more-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .load-more-btn {
+            background-color: #940000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .load-more-btn:hover {
+            background-color: #640000;
+        }
+
+        #moreNews {
+            display: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: #777;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-top">
+            <a href="index.html"><img src="Crab.png" alt="โลโก้เว็บ" class="logo" /></a>
+            <h1 class="site-name">Crab Review</h1>
+        </div>
+        <nav class="navbar">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="Music.html">Music</a>
+            <a class="nav-link" href="Game.html">Game</a>
+            <a class="nav-link" href="Anime.html">Anime</a>
+            <a class="nav-link" href="Movie.html">Movie</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1 class="content-header">Games News</h1>
+
+        <div class="news-item">
+            <a href="nintendo-switch-2-treehouse-live-events-april-2025.html" class="image-container">
+                <img src="News\Image\nintendo-switch-2.png" alt="Nintendo Switch 2" class="news-item-image" />
+            </a>
+            <div>
+                <h3 class="news-item-title">
+                    <a href="News\nintendo-switch-2-treehouse-live-events-april-2025.html">
+                        Nintendo Announces Additional Switch 2 Events for April 3 and 4
+                    </a>
+                </h3>
+                <p class="news-item-excerpt">
+                    Nintendo has announced additional events related to their highly
+                    anticipated next-generation console, reportedly named the Switch 2.
+                    These events are scheduled for April 3rd and 4th, sparking further
+                    speculation among gaming enthusiasts.
+                </p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <a href="News\elder-scrolls-4-oblivion-remake-release-rumors-april-2025.html" class="image-container">
+                <img src="News\Image\the-elder-scrolls-4-oblivion-soldier.avif" alt="Another Game News"
+                    class="news-item-image" />
+            </a>
+            <div>
+                <h3 class="news-item-title">
+                    <a href="News\elder-scrolls-4-oblivion-remake-release-rumors-april-2025.html"> Rumor: Oblivion
+                        Remake Could Be Launching As Early As This Week </a>
+                </h3>
+                <p class="news-item-excerpt">
+                    Rumors continue to swirl about the Elder Scrolls 4: Oblivion remake, with a new rumor claiming the
+                    game could be released by the end of this week.
+                </p>
+            </div>
+        </div>
+
+        <div id="moreNews">
+            <div class="news-item">
+                <a href="News\nintendo-switch-2-pro-controller-rumor.html" class="image-container">
+                    <img src="News\Image\nintendo-switch-pro-controller.png" alt="More News Item 1"
+                        class="news-item-image" />
+                </a>
+                <div>
+                    <h3 class="news-item-title">
+                        <a href="News\nintendo-switch-2-pro-controller-rumor.html"> Rumor: Nintendo Switch 2 Could Be
+                            Getting Its Own Pro Controller With Helpful New
+                            Feature </a>
+                    </h3>
+                    <p class="news-item-excerpt">
+                        A new rumor suggests the upcoming Nintendo Switch 2 will get a new Pro Controller that comes
+                        with a much-requested feature the original one lacked.
+                    </p>
+                </div>
+            </div>
+
+            <div class="news-item">
+                <a href="News\nintendo-switch-2-direct-how-long-will-it-be.html" class="image-container">
+                    <img src="News\Image\nintendo-switch-2-direct-how-long.png" alt="More News Item 2"
+                        class="news-item-image" />
+                </a>
+                <div>
+                    <h3 class="news-item-title">
+                        <a href="News\nintendo-switch-2-direct-how-long-will-it-be.html"> Nintendo Reveals How Long
+                            the Switch 2 Direct Will Be</a>
+                    </h3>
+                    <p class="news-item-excerpt">
+                        Nintendo confirms how long the upcoming Switch 2 Direct livestream will be, giving fans an idea
+                        of how much will be revealed at the big event.
+                    </p>
+                </div>
+            </div>
+
+            <div class="news-item">
+                <a href="News\pokemon-tcg-pocket-free-trade-tokens-april-2025.html" class="image-container">
+                    <img src="News\Image\pokemon-trading-card-game-pocket-thumbnail.png" alt="More News Item 2"
+                        class="news-item-image" />
+                </a>
+                <div>
+                    <h3 class="news-item-title">
+                        <a href="News\pokemon-tcg-pocket-free-trade-tokens-april-2025.html"> Pokemon TCG Pocket
+                            Rewarding Players With Huge Amount of Trade Tokens </a>
+                    </h3>
+                    <p class="news-item-excerpt">
+                        Pokemon TCG Pocket rewards players with a substantial amount of Trade Tokens, allowing Pokemon
+                        fans to make some big swaps with one another.
+                    </p>
+                </div>
+            </div>
+
+            <div class="news-item">
+                <a href="News\halo-collection-will-it-release-on-ps5.html" class="image-container">
+                    <img src="News\Image\halo-collection.png" alt="More News Item 2" class="news-item-image" />
+                </a>
+                <div>
+                    <h3 class="news-item-title">
+                        <a href="News\halo-collection-will-it-release-on-ps5.html"> Halo Collection May Not Be
+                            Coming to PS5 After All </a>
+                    </h3>
+                    <p class="news-item-excerpt">
+                        Despite rumors, a new source claims Halo: The Master Chief Collection may not actually be coming
+                        to PlayStation 5, at least in its current form.
+                    </p>
+                </div>
+            </div>
+
+            <div class="news-item">
+                <a href="News\atomfall-launch-was-it-successful.html" class="image-container">
+                    <img src="News\Image\atomfall-b-a-r-d-robot-in-wyndham-village-game-rant-advance.png"
+                        alt="More News Item 2" class="news-item-image" />
+                </a>
+                <div>
+                    <h3 class="news-item-title">
+                        <a href="News\atomfall-launch-was-it-successful.html"> Atomfall is Already a Big
+                            Hit </a>
+                    </h3>
+                    <p class="news-item-excerpt">
+                        Rebellion Developments' recently released action-adventure title Atomfall continues to find huge
+                        success less than a week after launch.
+                    </p>
+                </div>
+            </div>
+
+            <div class="news-item">
+                <a href="News\marvel-rivals-characters-leaks-april-2025.html" class="image-container">
+                    <img src="News\Image\marvel-rivals-silhouettes.png" alt="More News Item 2"
+                        class="news-item-image" />
+                </a>
+                <div>
+                    <h3 class="news-item-title">
+                        <a href="News\marvel-rivals-characters-leaks-april-2025.html"> Next 5 Marvel Rivals
+                            Characters Leaked </a>
+                    </h3>
+                    <p class="news-item-excerpt">
+                        The next five characters coming to the popular hero shooter Marvel Rivals leak online.
+                    </p>
+                </div>
+            </div>
+
+            <div class="news-item">
+                <a href="News\monster-hunter-wilds-player-milestone-free-rewards.html" class="image-container">
+                    <img src="News\Image\monster-hunter-wilds-sells-10-million-copies.png" alt="More News Item 2"
+                        class="news-item-image" />
+                </a>
+                <div>
+                    <h3 class="news-item-title">
+                        <a href="News\monster-hunter-wilds-player-milestone-free-rewards.html"> Monster Hunter Wilds
+                            Celebrates Major Sales Milestone With Free Rewards </a>
+                    </h3>
+                    <p class="news-item-excerpt">
+                        Capcom is rewarding all Monster Hunter Wilds players with free in-game items in celebration for
+                        recently hitting a major sales milestone.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="load-more-container">
+            <button class="load-more-btn" onclick="loadMore()">Load More</button>
+        </div>
+    </div>
+    <footer>&copy; 2025 Crab Review - All Rights Reserved</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function loadMore() {
+            var moreNews = document.getElementById("moreNews");
+            var loadMoreBtn = document.querySelector(".load-more-btn");
+            moreNews.style.display = "block";
+            loadMoreBtn.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
