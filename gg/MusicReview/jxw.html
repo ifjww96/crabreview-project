@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crab Review</title>
+    <link rel="icon" type="image/png" href="..\Crab.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: black;
+            font-family: sans-serif;
+            padding-top: 120px;
+            margin: 0;
+        }
+
+        .main-header {
+            background-color: #000;
+            color: #f0f8ff;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+
+        .site-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: #940000;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #640000;
+            color: white;
+        }
+
+        .card {
+            background-color: #222;
+        }
+
+        .card-body {
+            color: #f0f8ff;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-text {
+            color: #f0f8ff;
+        }
+
+        .review-text {
+            color: #f0f8ff;
+            max-width: 800px;
+            line-height: 1.8;
+        }
+
+        .list-group {
+            background-color: black;
+            width: 450px;
+        }
+
+        .list-group-item {
+            background-color: black;
+            color: white;
+        }
+
+        .list-group-item:hover {
+            background-color: #940000;
+            color: #fff;
+        }
+
+        .btn {
+            position: absolute;
+            right: 30px;
+            color: #fff;
+            background-color: #940000;
+            padding: 10px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .btn:hover {
+            color: #fff;
+            background-color: #640000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-top">
+            <a href="..\index.html"><img src="..\Crab.png" alt="โลโก้เว็บ" class="logo" /></a>
+            <h1 class="site-name">Crab Review</h1>
+        </div>
+        <nav class="navbar d-flex justify-content-center">
+            <a class="nav-link" href="..\index.html">Home</a>
+            <a class="nav-link" href="..\Music.html">Music</a>
+            <a class="nav-link" href="..\Game.html">Game</a>
+            <a class="nav-link" href="..\Anime.html">Anime</a>
+            <a class="nav-link" href="..\Movie.html">Movie</a>
+        </nav>
+    </header>
+
+    <div class="container mb-5">
+        <div class="card mt-2">
+            <div class="row justify-content-center align-items-center p-3">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <img src="/MusicReview/musicpic/jxw.PNG" class="img-fluid rounded" alt="am album cover"
+                        style="max-width: 100%;">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title"> Last Night <br> by JXW </h3>
+                        <p>
+                            Last Night / Beautiful Monster / Leftover
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-5">
+                <div class="table-responsive">
+                    <table class="table table-dark text-center" style="border-radius: 10px; overflow: hidden;">
+                        <tr>
+                            <td> Song </td>
+                            <td> 9 </td>
+                        </tr>
+                        <tr>
+                            <td> Music Video </td>
+                            <td> 8 </td>
+                        </tr>
+                        <tr>
+                            <td> Performance </td>
+                            <td> 8 </td>
+                        </tr>
+                        <tr class="table-secondary text-dark fw-bold">
+                            <td> Overall Rating </td>
+                            <td> 8.3 / 10 </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="my-4"></div>
+
+                <div class="list-group fw-bold">
+                    <a href="../MusicReview/maestro.html" class="list-group-item list-group-item-action"> 17 is Right
+                        Here by Seventeen </a>
+                    <a href="../MusicReview/arctic.html" class="list-group-item list-group-item-action"> Am by Arctic
+                        Monkeys </a>
+                    <a href="../MusicReview/chase.html" class="list-group-item list-group-item-action"> Chase Atlantic
+                        by Chase Atlantic </a>
+                    <a href="../MusicReview/tyler.html" class="list-group-item list-group-item-action"> Chromakopia by
+                        Tyler, The Creator </a>
+                    <a href="../MusicReview/billie.html" class="list-group-item list-group-item-action"> Hit Me Hard and
+                        Soft by Billie Eilish </a>
+                    <!-- <a href="../MusicReview/jxw.html" class="list-group-item list-group-item-action"> Last Night by JXW </a> -->
+                    <a href="../MusicReview/massive.html" class="list-group-item list-group-item-action"> Mezzanine by
+                        Massive Attack </a>
+                    <a href="../MusicReview/lana.html" class="list-group-item list-group-item-action"> Ultraviolence by
+                        Lana Del Rey </a>
+                </div>
+
+            </div>
+
+            <div class="col-md-7">
+                <div class="review-text">
+                    <h3><em>
+                            HAVE YOU EVER SEEN THIS MAN?
+                        </em></h3>
+                    <h5> <em>
+                            THIS MAN is the debut single album by JxW, a SEVENTEEN subunit consisting of members
+                            Jeonghan and Wonwoo. Focusing on an urban legend-based concept
+                            <br>
+                            THIS MAN’s audiobook and “어젯밤 (Last night)”’s music video show the story of “a man who turns
+                            into a nightmare, and another man who lives in fear of being forgotten” – the single album’s
+                            three songs are connected through this story and its characters..</em>
+                    </h5>
+                    <br><br>
+                    <p>
+                        The title track, “Last Night,” is a smooth, seductive offering that sets the tone for the rest
+                        of the album. The song's production is sleek, with plucked guitar lines and a chunky bass that
+                        drives the sound forward. However, instead of relying on a traditional, explosive chorus, the
+                        track loops a catchy synth riff throughout. This approach recalls a style SEVENTEEN was
+                        particularly fond of around 2017, though this structure is now a bit of a forgotten art. While
+                        the track doesn’t feel entirely new, it brings enough nostalgia to feel fresh.
+
+                        Jeonghan and Wonwoo’s contrasting vocal tones are a highlight of the song, with Jeonghan’s high,
+                        airy falsetto juxtaposed against Wonwoo’s deeper, smoother voice. However, despite the appealing
+                        vocal chemistry, the song doesn’t give them much to work with. The lyrics and melodies remain
+                        minimal, with much of the track feeling whispered rather than sung. This creates an atmospheric
+                        mood but leaves the song feeling incomplete. The producers clearly prioritized mood over
+                        structure, which works to a degree but ultimately leaves the track feeling like a tease. The
+                        song loops its few tricks, never reaching a true climactic point, and as a result, the payoff is
+                        underwhelming.
+
+                        The other tracks on the album, including “Beautiful Monster” and “Leftover,” continue to play
+                        with mood and atmosphere but lack the same punch. “Beautiful Monster” has a darker edge, with
+                        its deep, brooding lyrics, while “Leftover” leans into introspection, giving both Jeonghan and
+                        Wonwoo a chance to showcase their individual styles. However, neither track fully develops their
+                        potential, and much like “Last Night,” they leave listeners wanting more.
+
+                        Despite the album's minimalism, there’s an undeniable charm in its simplicity. The atmosphere is
+                        captivating, and the conceptual tie between the songs is intriguing, even if it doesn't reach
+                        the full potential it promises. While Last Night doesn’t fully deliver on the emotional tension
+                        it sets up, it remains an interesting start for JXW, with room for growth in future releases.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="../Music.html" class="btn"> Music Lists </a>
+
+    <footer> &copy; 2025 Crab Review - All Rights Reserved </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

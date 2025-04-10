@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crab Review</title>
+    <link rel="icon" type="image/png" href="..\Crab.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: black;
+            font-family: sans-serif;
+            padding-top: 120px;
+            margin: 0;
+        }
+
+        .main-header {
+            background-color: #000;
+            color: #f0f8ff;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+
+        .site-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: #940000;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #640000;
+            color: white;
+        }
+
+        .card {
+            background-color: #222;
+        }
+
+        .card-body {
+            color: #f0f8ff;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-text {
+            color: #f0f8ff;
+        }
+
+        .review-text {
+            color: #f0f8ff;
+            max-width: 800px;
+            line-height: 1.8;
+        }
+
+        .list-group {
+            background-color: black;
+            width: 450px;
+        }
+
+        .list-group-item {
+            background-color: black;
+            color: white;
+        }
+
+        .list-group-item:hover {
+            background-color: #940000;
+            color: #fff;
+        }
+
+        .btn {
+            position: absolute;
+            right: 30px;
+            color: #fff;
+            background-color: #940000;
+            padding: 10px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .btn:hover {
+            color: #fff;
+            background-color: #640000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-top">
+            <a href="..\index.html"><img src="..\Crab.png" alt="โลโก้เว็บ" class="logo" /></a>
+            <h1 class="site-name">Crab Review</h1>
+        </div>
+        <nav class="navbar d-flex justify-content-center">
+            <a class="nav-link" href="..\index.html">Home</a>
+            <a class="nav-link" href="..\Music.html">Music</a>
+            <a class="nav-link" href="..\Game.html">Game</a>
+            <a class="nav-link" href="..\Anime.html">Anime</a>
+            <a class="nav-link" href="..\Movie.html">Movie</a>
+        </nav>
+    </header>
+
+    <div class="container mb-5">
+        <div class="card mt-2">
+            <div class="row justify-content-center align-items-center p-3">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <img src="/MusicReview/musicpic/billie.PNG" class="img-fluid rounded" alt="am album cover"
+                        style="max-width: 100%;">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title"> Hit Me Hard and Soft <br> by Billie Eilish </h3>
+                        <p>
+                            Skinny / Lunch / Chihiro / Birds of a Feather / Wildflower /
+                            The Greatest / L'amour de ma vie / The Diner / Bittersuite / Blue
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-5">
+                <div class="table-responsive">
+                    <table class="table table-dark text-center" style="border-radius: 10px; overflow: hidden;">
+                        <tr>
+                            <td> Song </td>
+                            <td> 9 </td>
+                        </tr>
+                        <tr>
+                            <td> Music Video </td>
+                            <td> 8 </td>
+                        </tr>
+                        <tr>
+                            <td> Performance </td>
+                            <td> 9 </td>
+                        </tr>
+                        <tr class="table-secondary text-dark fw-bold">
+                            <td> Overall Rating </td>
+                            <td> 8.6 / 10 </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="my-4"></div>
+
+                <div class="list-group fw-bold">
+                    <a href="../MusicReview/maestro.html" class="list-group-item list-group-item-action"> 17 is Right
+                        Here by Seventeen </a>
+                    <a href="../MusicReview/arctic.html" class="list-group-item list-group-item-action"> Am by Arctic
+                        Monkeys </a>
+                    <a href="../MusicReview/chase.html" class="list-group-item list-group-item-action"> Chase Atlantic
+                        by Chase Atlantic </a>
+                    <a href="../MusicReview/tyler.html" class="list-group-item list-group-item-action"> Chromakopia by
+                        Tyler, The Creator </a>
+                    <!-- <a href="../MusicReview/billie.html" class="list-group-item list-group-item-action"> Hit Me Hard and Soft by Billie Eilish </a> -->
+                    <a href="../MusicReview/jxw.html" class="list-group-item list-group-item-action"> Last Night by JXW
+                    </a>
+                    <a href="../MusicReview/massive.html" class="list-group-item list-group-item-action"> Mezzanine by
+                        Massive Attack </a>
+                    <a href="../MusicReview/lana.html" class="list-group-item list-group-item-action"> Ultraviolence by
+                        Lana Del Rey </a>
+                </div>
+
+            </div>
+
+            <div class="col-md-7">
+                <div class="review-text">
+                    <h5> <em>
+                            The pop star teams with her brother Finneas for their third album together, expanding the
+                            cooly dark vision of their sound. It’s an honest and ambitious album when it’s not inert and
+                            repetitive.</em>
+                    </h5>
+                    <br><br>
+                    <p>
+                        It’s been three years since her last album, the superbly angsty catharsis Happier Than Ever. The
+                        new album feels very different — more playful, more pissed. The music ranges from plaintive
+                        synth-pop like “Birds of a Feather” or “Blue” to confessional ballads like “The Greatest” or
+                        “Skinny.” But even in a great pop year that’s already been a super-chunk cluster-bunch of bold
+                        statements for mega-pop queens, Hit Me Hard and Soft stands out as something uniquely strange.
+                        <br><br>
+                        Fame still feels like a trap for Eilish — she sings about feeling “like a bird in a cage” in
+                        both the first and last songs here. Hit Me Hard and Soft is her coming-of-age album but also her
+                        coming-out album, with a nonstop rush of emotional and musical quick-change swerves. She moves
+                        from depression, isolation, and misery to the explicit electro-goth lust of “Lunch,” where she
+                        raves over a muse who’s “a craving, not a crush.” It’s got the mischief of “Bad Guy,” except now
+                        she’s chanting, “You need a seat, I volunteer/Now she’s smiling ear to ear/She’s the headlights,
+                        I’m the deer.
+                        <br><br>
+                        “Skinny” is an intense opener that picks up where Happier Than Ever left off, but
+                        with the same vulnerable intimacy of her heart-wrenching Barbie ballad, “What Was I Made For?”
+                        The lyrics hint at body-image trauma as well as a relationship ruined by public scrutiny — as
+                        she sings, “The internet is hungry for the meanest kind of funny, and somebody’s gotta feed
+                        it.
+                        <br><br>
+                        Billie and Finneas are one of the great sibling mind-meld duos in pop history, always
+                        goading each other on to bigger surprises. They make almost all the sounds here themselves,
+                        though Finneas’ string arrangements are played by the Attaca Quartet — a rare moment where
+                        outsiders get invited into the family’s private sound-world. It’s a tight, linear album, with an
+                        old-school pace of 10 songs in 44 minutes, none especially opaque or inscrutable, yet none
+                        moving in a straight line. The title “Bittersuite” sums up how the album flows, with songs that
+                        often shift halfway through and lurch into a totally different song. “L’Amour de la Vie” starts
+                        out as a droll Edith Piaf cafe ballad, then flips into a high-energy disco thump; “Bittersuite”
+                        itself starts out on the dance floor, suddenly slows down, then ends with a morbid synth drone,
+                        like a soundtrack to HAL 9000’s demise.
+                        <br><br>
+                        “Birds of a Feather” is a poignant Eighties-flavored
+                        love song that could pass for vintage Sade or George Michael, with Eilish’s most emotionally
+                        voracious vocals. “I want you to stay till I’m in the grave,” she pleads. “Till I rot away, dead
+                        and buried/Till I’m in the casket you carry.” But the most powerful song here is “The Greatest,”
+                        where she goes from a whisper to a scream as she testifies about adult heartache, almost
+                        snarling, “All the times I waited/For you to want me naked/I made it all look painless.
+                        <br><br>
+                        Three years ago, on Happier Than Ever, one of her most vulnerable moments came in “My Future,” where
+                        Eilish sang, “I’m in love with my future/Can’t wait to meet her.” Her future self has turned out
+                        to be a real piece of work — everything the 19-year-old Billie could have hoped for. Hit Me Hard
+                        and Soft makes you marvel at how far she’s traveled as a pop artiste. But it’s also a propitious
+                        omen that the greatest Billie is yet to come.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="../Music.html" class="btn"> Music Lists </a>
+
+    <footer> &copy; 2025 Crab Review - All Rights Reserved </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
