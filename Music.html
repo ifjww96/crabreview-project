@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crab Review</title>
+    <link rel="icon" type="image/png" href="Crab.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: black;
+            font-family: sans-serif;
+            padding-top: 120px;
+            margin: 0;
+        }
+
+        .main-header {
+            background-color: #000;
+            color: #f0f8ff;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+
+        .site-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: #940000;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #640000;
+            color: white;
+        }
+
+        .content-header {
+            padding: 5px;
+            padding-left:50px;
+            margin: 30px auto 0;
+            max-width: 1200px;
+            color:#f0f8ff;
+            font-size: 2em;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .card {
+            color: #f0f8ff;
+            background-color: #222;
+            margin-bottom: 30px;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .btn {
+            color: #fff;
+            background-color: #940000;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .btn:hover {
+            background-color: #640000; 
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-top">
+            <a href="index.html"><img src="Crab.png" alt="Crab Review Logo" class="logo" /></a>
+            <h1 class="site-name">Crab Review</h1>
+        </div>
+        <nav class="navbar d-flex justify-content-center">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="Music.html">Music</a>
+            <a class="nav-link" href="Game.html">Game</a>
+            <a class="nav-link" href="Anime.html">Anime</a>
+            <a class="nav-link" href="Movie.html">Movie</a>
+        </nav>
+    </header>
+
+    <h1 class="content-header"> Album Lists </h1>
+    
+    <div class="container py-4">
+        <div class="row justify-content-center g-4">
+            <!-- Card 1 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./MusicReview/musicpic/arctic.PNG" class="card-img-top" alt="Arctic Monkeys">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> AM </h5>
+                        <p class="card-name"> Arctic Monkeys </p>
+                        <a href="MusicReview/arctic.html" class="btn mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./MusicReview/musicpic/maestro.PNG" class="card-img-top" alt="17 is Right Here">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> 17 is Right Here </h5>
+                        <p class="card-name"> Seventeen </p>
+                        <a href="MusicReview/maestro.html" class="btn mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./MusicReview/musicpic/jxw.PNG" class="card-img-top" alt="Last Night">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Last Night </h5>
+                        <p class="card-name"> JXW </p>
+                        <a href="MusicReview/jxw.html" class="btn mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./MusicReview/musicpic/chase.PNG" class="card-img-top" alt="Chase Atlantic">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Chase Atlantic </h5>
+                        <p class="card-name">Chase Atlantic</p>
+                        <a href="MusicReview/chase.html" class="btn mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./MusicReview/musicpic/billie.PNG" class="card-img-top" alt="Hit Me Hard and Soft">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Hit Me Hard and Soft </h5>
+                        <p class="card-name"> Billie Eilish </p>
+                        <a href="MusicReview/billie.html" class="btn mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./MusicReview/musicpic/lanadelrey.PNG" class="card-img-top" alt="Ultraviolence">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Ultraviolence </h5>
+                        <p class="card-name">Lana Del Rey</p>
+                        <a href="MusicReview/lana.html" class="btn mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./MusicReview/musicpic/massive.PNG" class="card-img-top" alt="Mezzanine">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Mezzanine </h5>
+                        <p class="card-name"> Massive Attack </p>
+                        <a href="MusicReview/massive.html" class="btn mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./MusicReview/musicpic/tyler.PNG" class="card-img-top" alt="Chromakopia">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Chromakopia </h5>
+                        <p class="card-name"> Tyler, The Creator </p>
+                        <a href="MusicReview/tyler.html" class="btn mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer> &copy; 2025 Crab Review - All Rights Reserved </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
