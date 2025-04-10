@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crab Review</title>
+    <link rel="icon" type="image/png" href="..\Crab.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: black;
+            font-family: sans-serif;
+            padding-top: 120px;
+            margin: 0;
+        }
+
+        .main-header {
+            background-color: #000;
+            color: #f0f8ff;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+
+        .site-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: #940000;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #640000;
+            color: white;
+        }
+
+        .card {
+            background-color: #222;
+        }
+
+        .card-body {
+            color: #f0f8ff;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-text {
+            color: #f0f8ff;
+        }
+
+        .review-text {
+            color: #f0f8ff;
+            max-width: 800px;
+            line-height: 1.8;
+        }
+
+        .list-group {
+            background-color: black;
+            width: 450px;
+        }
+
+        .list-group-item {
+            background-color: black;
+            color: white;
+        }
+
+        .list-group-item:hover {
+            background-color: #940000;
+            color: #fff;
+        }
+
+        .btn {
+            position: absolute;
+            right: 30px;
+            color: #fff;
+            background-color: #940000;
+            padding: 10px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .btn:hover {
+            color: #fff;
+            background-color: #640000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-top">
+            <a href="..\index.html"><img src="..\Crab.png" alt="โลโก้เว็บ" class="logo" /></a>
+            <h1 class="site-name">Crab Review</h1>
+        </div>
+        <nav class="navbar d-flex justify-content-center">
+            <a class="nav-link" href="..\index.html">Home</a>
+            <a class="nav-link" href="..\Music.html">Music</a>
+            <a class="nav-link" href="..\Game.html">Game</a>
+            <a class="nav-link" href="..\Anime.html">Anime</a>
+            <a class="nav-link" href="..\Movie.html">Movie</a>
+        </nav>
+    </header>
+
+    <div class="container mb-5">
+        <div class="card mt-2">
+            <div class="row justify-content-center align-items-center p-3">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <img src="/MusicReview/musicpic/massive.PNG" class="img-fluid rounded" alt="am album cover"
+                        style="max-width: 100%;">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title"> Mezzanine <br> by Massive Attack </h3>
+                        <p>
+                            Angel / Risingson / Teardrop / Inertia Creeps / Exchange /
+                            Dissolved Girl / Man Next Door / Black Milk / Mezzanine / Group Four
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-5">
+                <div class="table-responsive">
+                    <table class="table table-dark text-center" style="border-radius: 10px; overflow: hidden;">
+                        <tr>
+                            <td> Song </td>
+                            <td> 10 </td>
+                        </tr>
+                        <tr>
+                            <td> Music Video </td>
+                            <td> 8 </td>
+                        </tr>
+                        <tr>
+                            <td> Performance </td>
+                            <td> 9 </td>
+                        </tr>
+                        <tr class="table-secondary text-dark fw-bold">
+                            <td> Overall Rating </td>
+                            <td> 9 / 10 </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="my-4"></div>
+
+                <div class="list-group fw-bold">
+                    <a href="../MusicReview/maestro.html" class="list-group-item list-group-item-action"> 17 is Right
+                        Here by Seventeen </a>
+                    <a href="../MusicReview/arctic.html" class="list-group-item list-group-item-action"> Am by Arctic
+                        Monkeys </a>
+                    <a href="../MusicReview/chase.html" class="list-group-item list-group-item-action"> Chase Atlantic
+                        by Chase Atlantic </a>
+                    <a href="../MusicReview/tyler.html" class="list-group-item list-group-item-action"> Chromakopia by
+                        Tyler, The Creator </a>
+                    <a href="../MusicReview/billie.html" class="list-group-item list-group-item-action"> Hit Me Hard and
+                        Soft by Billie Eilish </a>
+                    <a href="../MusicReview/jxw.html" class="list-group-item list-group-item-action"> Last Night by JXW
+                    </a>
+                    <!-- <a href="../MusicReview/massive.html" class="list-group-item list-group-item-action"> Mezzanine by Massive Attack </a> -->
+                    <a href="../MusicReview/lana.html" class="list-group-item list-group-item-action"> Ultraviolence by
+                        Lana Del Rey </a>
+                </div>
+
+            </div>
+
+            <div class="col-md-7">
+                <div class="review-text">
+                    <h5> <em>
+                            Mezzanine returned the Bristol collective to prominence. Cocteau Twins' Elizabeth Fraser was
+                            the designated chanteuse, and her icy voice stands out against the earthy backdrops of songs
+                            such as “Teardrop”.</em>
+                    </h5>
+                    <br><br>
+                    <p>
+                        “Trip-hop” eventually became a ’90s punchline, a music-press shorthand for “overhyped hotel
+                        lounge music.” But today, the much-maligned subgenre almost feels like a secret precedent.
+                        Listen to any of the canonical Bristol-scene albums of the mid-late ’90s, when the genre was
+                        starting to chafe against its boundaries, and you’d think the claustrophobic, anxious 21st
+                        century started a few years ahead of schedule. Looked at from the right angle, trip-hop is part
+                        of an unbroken chain that runs from the abrasion of ’80s post-punk to the ruminative
+                        pop-R&B-dance fusion of the moment.
+                        <br><br>
+                        The best of it has aged far more gracefully (and forcefully) than anything recorded in the
+                        waning days of the record industry’s pre-filesharing monomania has any right to. Tricky rebelled
+                        against being attached at the hip to a scene he was already looking to shed and decamped for
+                        Jamaica to record a more aggressive, bristling-energy mutation of his style in ’96; the name
+                        Pre-Millennium Tension is the only obvious thing that tells you it’s two decades old rather than
+                        two weeks. And Portishead’s ’97 self-titled saw the stress-fractured voice of Beth Gibbons
+                        envisioning romance as codependent, mutually assured destruction while Geoff Barrow sunk into
+                        his RZA-noir beats like The Conversation’s Gene Hackman ruminating over his surveillance tapes.
+                        This was raw-nerved music, too single-minded and intense to carry an obvious timestamp.
+                        <br><br>
+                        But Massive Attack were the origin point of the trip-hop movement they and their peers were
+                        striving to escape the orbit of, and they nearly tore themselves to shreds in the process.
+                        Instead— or maybe as a result—they laid down their going-nova genre's definitive paranoia
+                        statement with Mezzanine. The band's third album (not counting the Mad Professor-remixed No
+                        Protection) completes the last in a sort of de facto Bristol trilogy, where Tricky’s youthful
+                        iconoclasm and Portishead’s deep-focus emotional intensity set the scene for Massive Attack’s
+                        sense of near-suffocating dread. The album corroded their tendencies to make big-wheel hymnals
+                        of interconnected lives where hope and despair trade precedent—on Mezzanine, it’s alienation all
+                        the way down. There’s no safety from harm here, nothing you’ve got to be thankful for, nobody to
+                        take the force of the blow: what Mezzanine provides instead is a succession of parties and
+                        relationships and panopticons where the walls won’t stop closing in.
+                        <br><br>
+                        The lyrics establish this atmosphere all on their own. Sex, in “Inertia Creeps,” is reduced to a
+                        meeting of “two undernourished egos, four rotating hips,” the focus of a failing relationship
+                        that's left its participants too numbed with their own routine dishonesty to break it off. The
+                        voice singing it—Massive Attack's cornerstone co-writer/producer Robert “3D” Del Naja—is raspy
+                        from exhaustion. “Dissolved Girl” reiterates this theme from the perspective of guest vocalist
+                        Sarah Jay Hawley (“Passion’s overrated anyway”). On “Risingson,” Grant “Daddy G” Marshall nails
+                        the boredom and anxiety of being stuck somewhere you can’t stand with someone you’re starting to
+                        feel the same way about (“Why you want to take me to this party and breathe/I’m dying to
+                        leave/Every time we grind you know we severed lines”).
+                        <br><br>
+                        But Mezzanine’s defining moments come from guest vocalists who were famous long before Massive
+                        Attack even released their first album. Horace Andy was already a legend in reggae circles, but
+                        his collaborations with Massive Attack gave him a wider crossover exposure, and all three of his
+                        appearances on Mezzanine are homages or nods to songs he'd charted with in his early-’70s
+                        come-up. “Angel” is a loose rewrite of his 1973 single “You Are My Angel,” but it’s a fakeout
+                        after the first verse—originally a vision of beauty (“Come from way above/To bring me love”),
+                        transformed into an Old Testament avenger: “On the dark side/Neutralize every man in sight.” The
+                        parenthetically titled, album-closing reprise of “(Exchange)” is a ghostly invocation of Andy’s
+                        “See a Man’s Face” cleverly disguised as a comedown track. And then there’s “Man Next Door,” the
+                        John Holt standard that Andy had previously recorded as “Quiet Place”—on Mezzanine, it sounds
+                        less like an overheard argument from the next apartment over and more like a close-quarters
+                        reckoning with violence heard through thin walls ready to break. It’s Andy at his emotionally
+                        nuanced and evocative best.
+                        <br><br>
+                        The other outside vocalist was even more of a coup: Liz Fraser, the singer and songwriter of
+                        Cocteau Twins, lends her virtuoso soprano to three songs that feel like exorcisms of the
+                        personal strife accompanying her band’s breakup. Her voice serves as an ethereal counterpoint to
+                        speaker-rattling production around it. “Black Milk” contains the album’s most spiritually
+                        unnerving words (“Eat me/In the space/Within my heart/Love you for God/Love you for the
+                        Mother”), even as her lead and the elegiac beat make for some of its most beautiful sounds. She
+                        provides the wistful counterpoint to the night-shift alienation of “Group Four.” And then
+                        there's “Teardrop,” her finest moment on the album. Legend has it the song was briefly
+                        considered for Madonna; Andrew “Mushroom” Vowles sent the demo to her, but was overruled by
+                        Daddy G and 3D, who both wanted Fraser. Democracy thankfully worked this time around, as
+                        Fraser’s performance—recorded in part on the day she discovered that Jeff Buckley, who she’d had
+                        an estranged working relationship and friendship with, had drowned in Memphis’ Wolf River—was a
+                        heart-rending performance that gave Massive Attack their first (and so far only) UK Top 10 hit.
+                        <br><br>
+                        Originally set for a late ’97 release, Mezzanine got pushed back four months because Del Naja
+                        refused to stop reworking the tracks, tearing them apart and rebuilding them until they’re so
+                        polished they gleam. It sure sounds like the product of bloody-knuckled labor, all that
+                        empty-space reverb and melted-together multitrack vocals and oppressive low-end. (The first
+                        sound you hear on the album, that lead-jointed bassline on “Angel,” is to subwoofers what
+                        “Planet Earth” is to high-def television.) But it also groans with the burden of creative
+                        conflict, a working process that created rifts between Del Naja and Vowles, who left shortly
+                        after Mezzanine dropped following nearly 15 years of collaboration.
+                        <br><br>
+                        Mezzanine began the band’s relationship with producer Neil Davidge, who’d known Vowles dating
+                        back to the early ’90s and met the rest of the band after the completion of Protection. He
+                        picked a chaotic time to jump in, but Davidge and 3D forged a creative bond working through that
+                        pressure. Mezzanine was a document of unity, not fragmentation. Despite their rifts, they were a
+                        post-genre outfit, one that couldn’t separate dub from punk from hip-hop from R&B because the
+                        basslines all worked together and because classifications are for toe tags. All their
+                        acknowledged samples—including the joy-buzzer synths from Ultravox’s “Rockwrok” (“Inertia
+                        Creeps”), the opulent ache of Isaac Hayes’ celestial-soul take on “Our Day Will Come”
+                        (“Exchange”), Robert Smith’s nervous “tick tick tick” from the Cure’s “10:15 Saturday Night,”
+                        and the most concrete-crumbling throwdown of the Led Zep “Levee” break ever deployed (the latter
+                        two on “Man Next Door”)—were sourced from 1968 and 1978, well-traveled crate-digging territory.
+                        But what they build from that is its own beast.
+                        <br><br>
+                        Their working method never got any faster. The four-year gap between Protection and Mezzanine
+                        became a five-year gap until 2003’s 100th Window, then another seven years between that record
+                        and 2010’s Heligoland, plus another seven years and counting with no full-lengths to show for
+                        it. Not that they've been slacking: we've gotten a multimedia film/music collaboration with Adam
+                        Curtis, the respectable but underrated Ritual Spirit EP, and Del Naja’s notoriously rumored side
+                        gig as Banksy. (Hey, 3D does have a background in graffiti art.) But the ordeal of both
+                        recording and touring Mezzanine took its own toll. A late ’98 interview with Del Naja saw him
+                        optimistic about its reputation-shedding style: “I always said it was for the greater good of
+                        the fucking project because if this album was a bit different from the last two, the next one
+                        would be even freer to be whatever it wants to be.” But fatigue and restlessness rarely make for
+                        a productive mixture, and that same spark of tension which carried Mezzanine over the threshold
+                        proved unsustainable, not just for Massive Attack’s creativity but their continued existence.
+                        <br><br>
+                        Still, it’s hard not to feel the album’s legacy resonating elsewhere—and not just in “Teardrop”
+                        becoming the cue for millions of TV viewers to brace themselves for Hugh Laurie’s
+                        cranky-genius-doctor schtick. Graft its tense feelings of nervy isolation and late-night
+                        melancholy onto two-step, and you’re partway to the blueprint for Plastician and Burial. You can
+                        hear flashes of that mournful romantic alienation in James Blake, the graceful, bass-riddled
+                        emotional abrasion in FKA twigs, the all-absorbing post-genre rock/soul ambitions in Young
+                        Fathers or Algiers. Mezzanine stands as an album built around echoes of the ’70s, wrestled
+                        through the immediacy of its creators' tumultuous late ’90s, and fearless enough that it still
+                        sounds like it belongs in whatever timeframe you're playing it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="../Music.html" class="btn"> Music Lists </a>
+
+    <footer> &copy; 2025 Crab Review - All Rights Reserved </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

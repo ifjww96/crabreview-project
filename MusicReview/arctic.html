@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crab Review</title>
+    <link rel="icon" type="image/png" href="..\Crab.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: black;
+            font-family: sans-serif;
+            padding-top: 120px;
+            margin: 0;
+        }
+
+        .main-header {
+            background-color: #000;
+            color: #f0f8ff;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+
+        .site-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: #940000;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #640000;
+            color: white;
+        }
+
+        .card {
+            background-color: #222;
+        }
+
+        .card-body {
+            color: #f0f8ff;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-text {
+            color: #f0f8ff;
+        }
+
+        .review-text {
+            color: #f0f8ff;
+            max-width: 800px;
+            line-height: 1.8;
+        }
+
+        .list-group {
+            background-color: black;
+            width: 450px;
+        }
+
+        .list-group-item {
+            background-color: black;
+            color: white;
+        }
+
+        .list-group-item:hover {
+            background-color: #940000;
+            color: #fff;
+        }
+
+        .btn {
+            position: absolute;
+            right: 30px;
+            color: #fff;
+            background-color: #940000;
+            padding: 10px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .btn:hover {
+            color: #fff;
+            background-color: #640000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-top">
+            <a href="..\index.html"><img src="..\Crab.png" alt="โลโก้เว็บ" class="logo" /></a>
+            <h1 class="site-name">Crab Review</h1>
+        </div>
+        <nav class="navbar d-flex justify-content-center">
+            <a class="nav-link" href="..\index.html">Home</a>
+            <a class="nav-link" href="..\Music.html">Music</a>
+            <a class="nav-link" href="..\Game.html">Game</a>
+            <a class="nav-link" href="..\Anime.html">Anime</a>
+            <a class="nav-link" href="..\Movie.html">Movie</a>
+        </nav>
+    </header>
+
+    <div class="container mb-5">
+        <div class="card mt-2">
+            <div class="row justify-content-center align-items-center p-3">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <img src="/MusicReview/musicpic/arctic.PNG" class="img-fluid rounded" alt="am album cover"
+                        style="max-width: 100%;">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">AM <br> by Arctic Monkeys</h3>
+                        <p>
+                            Do I Wanna Know? / R U Mine? / One For The Road / Arabella / I Want It All
+                            / No.1 Party Anthem / Mad Sounds / Fireside / Why'd You Only Call Me When You're Hight? /
+                            Snap Out of It / Knee Socks / I Wanna Be Yours
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-5">
+                <div class="table-responsive">
+                    <table class="table table-dark text-center" style="border-radius: 10px; overflow: hidden;">
+                        <tr>
+                            <td> Song </td>
+                            <td> 9 </td>
+                        </tr>
+                        <tr>
+                            <td> Music Video </td>
+                            <td> 7 </td>
+                        </tr>
+                        <tr>
+                            <td> Performance </td>
+                            <td> 9 </td>
+                        </tr>
+                        <tr class="table-secondary text-dark fw-bold">
+                            <td> Overall Rating </td>
+                            <td> 8.3 / 10 </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="my-4"></div>
+
+                <div class="list-group fw-bold">
+                    <a href="../MusicReview/maestro.html" class="list-group-item list-group-item-action"> 17 is Right
+                        Here by Seventeen </a>
+                    <!-- <a href="../MusicReview/arctic.html" class="list-group-item list-group-item-action"> Am by Arctic Monkeys </a> -->
+                    <a href="../MusicReview/chase.html" class="list-group-item list-group-item-action"> Chase Atlantic
+                        by Chase Atlantic </a>
+                    <a href="../MusicReview/tyler.html" class="list-group-item list-group-item-action"> Chromakopia by
+                        Tyler, The Creator </a>
+                    <a href="../MusicReview/billie.html" class="list-group-item list-group-item-action"> Hit Me Hard and
+                        Soft by Billie Eilish </a>
+                    <a href="../MusicReview/jxw.html" class="list-group-item list-group-item-action"> Last Night by JXW
+                    </a>
+                    <a href="../MusicReview/massive.html" class="list-group-item list-group-item-action"> Mezzanine by
+                        Massive Attack </a>
+                    <a href="../MusicReview/lana.html" class="list-group-item list-group-item-action"> Ultraviolence by
+                        Lana Del Rey </a>
+                </div>
+
+            </div>
+
+            <div class="col-md-7">
+                <div class="review-text">
+                    <h5> <em>
+                            Over the last eight years, the Arctic Monkeys have gone from spastic punk, to doomed stoner
+                            rock, to sparkling guitar pop, to their fifth album’s skinny-jeaned funk. On AM, the
+                            quartet,
+                            now based in Los Angeles, offer a paranoid, haunted collection that goes beyond the sweaty
+                            clubs
+                            and furtive flirts into the hotel rooms, after parties, and bad decisions that can
+                            follow.</em>
+                    </h5>
+                    <br><br>
+                    <p>
+                        When Arctic Monkeys released AM in 2013, it felt like a midnight phone call you weren’t
+                        expecting—intimate, disoriented, and impossible to ignore. This wasn’t the scrappy Sheffield
+                        band that had taken the world by storm with jittery tales of dancefloors and youthful bravado.
+                        AM was slower, sexier, darker. It was a reinvention in both sound and soul—a record that traded
+                        indie-rock urgency for something far more brooding and magnetic.
+
+                        From the very first notes of “Do I Wanna Know?”, the tone is set: a sludgy, hypnotic guitar riff
+                        spirals slowly while Alex Turner’s voice slinks in with a mix of vulnerability and swagger. It’s
+                        a song about the weight of unspoken feelings, about wanting someone but not knowing if you
+                        should—or if they even care. That emotional tug-of-war defines the entire album. The riffs are
+                        heavy and minimal, the beats are precise and deliberate, and Turner's lyrics are sharp enough to
+                        cut through even the thickest haze of late-night longing.
+
+                        Across the album, Arctic Monkeys dip into a rich palette of sounds: hip-hop-inspired grooves,
+                        R&B smoothness, and classic rock influences from T. Rex to The Rolling Stones. Yet somehow, it
+                        never feels like imitation. Instead, it feels like evolution. There’s a smoky sophistication to
+                        AM that had only been hinted at in earlier records. Where their 2009 album Humbug (produced by
+                        Josh Homme) was their first flirtation with desert rock darkness, AM fully commits to the
+                        mood—and somehow makes it sexy.
+
+                        “No. 1 Party Anthem” and “Mad Sounds” stand out as the album’s emotional core, drifting away
+                        from the snarling riffs and into softer, more melancholic territory. “No. 1 Party Anthem” in
+                        particular plays like a hazy memory of a night that didn’t quite go the way you planned—a quiet
+                        lament for something lost before it was even found. Turner’s lyrics feel both cinematic and
+                        brutally personal, conjuring images of smoke-filled rooms, regretful glances, and the fleeting
+                        comfort of temporary love.
+
+                        Then there’s “R U Mine?”, a blistering track that captures the heart of the album’s restless
+                        energy. “Are you mine tomorrow, or just mine tonight?” Turner asks, distilling an entire
+                        generation’s anxieties about love and connection into one simple question. It's a line that
+                        feels as relevant now as it did then—especially in an era where relationships can begin and end
+                        in the span of a swipe.
+
+                        The final track, “I Wanna Be Yours,” brings the album full circle—not with a bang, but a
+                        whisper. Borrowing the words of punk poet John Cooper Clarke, Turner transforms domestic
+                        metaphors into declarations of devotion. “I wanna be your vacuum cleaner, breathing in your
+                        dust,” he croons, in a tone that makes the ridiculous sound romantic. It’s a fitting end to an
+                        album that’s constantly navigating the line between sincerity and performance, passion and
+                        emptiness.
+
+                        What makes AM such a compelling record is its sense of mood. It’s not an album you just listen
+                        to—it’s one you inhabit. It wraps around you like a leather jacket still warm from someone
+                        else’s body. It doesn’t scream for attention, it draws you in with a smirk and a raised eyebrow.
+                        Turner is no longer the fast-talking observer of British nightlife; he’s become the lonesome
+                        poet, the late-night driver, the man making questionable decisions under fluorescent hotel
+                        lighting.
+
+                        In many ways, AM is Arctic Monkeys at their most confident—and their most confused. It’s a
+                        contradiction wrapped in velvet: glossy but gritty, emotional yet aloof, cool but undeniably
+                        earnest. And that tension is exactly what makes it one of the defining rock albums of the 2010s.
+                        It’s not just a record about love, lust, and late nights—it’s a record about the spaces in
+                        between. The texts that go unanswered. The eyes that meet across crowded rooms. The longing that
+                        stays long after the lights come up.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="../Music.html" class="btn"> Music Lists </a>
+
+    <footer> &copy; 2025 Crab Review - All Rights Reserved </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
