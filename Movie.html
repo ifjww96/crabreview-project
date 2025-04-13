@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crab Review</title>
+    <link rel="icon" type="image/png" href="Crab.png">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+        body {
+            background-color: #000;
+            color: #f0f8ff;
+            font-family: sans-serif;
+            margin: 0;
+            padding-top: 101px;
+            text-align: center;
+        }
+
+        .main-header {
+            background-color: #000;
+            color: #f0f8ff;
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .logo {
+            max-height: 40px;
+            margin-right: 15px;
+        }
+
+        .site-name {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: #940000;
+            overflow: hidden;
+            list-style: none;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #640000;
+            color: #fff;
+        }
+
+        .content-header {
+            padding: 30px;
+            margin: 30px auto 0;
+            max-width: 1200px;
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .image-container {
+            width: 300px;
+            height: 440px;
+            overflow: hidden;
+        }
+
+        .name {
+            font-size: 1em;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #fff;
+            
+        }
+
+        .card {
+            color: #f0f8ff;
+            background-color: #000;
+            margin-bottom: 20px;
+        }
+        .card-title {
+            font-size: 25px;
+            font-family:'Franklin Gothic Medium'
+        }
+        .card-text {
+            font-size: 15px;
+            font-family:'Franklin Gothic Medium'
+        }
+        .card-img-top {
+            width: 100%;
+            height: auto;
+        }
+        .card:hover {
+            transform: scale(1.02);
+            transition: transform 0.2s ease-in-out;
+}
+
+        .btn {
+            background-color: #940000;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #640000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-top">
+            <a href="index.html"><img src="Crab.png" alt="Logo" class="logo" /></a>
+            <h1 class="site-name">Crab Review</h1>
+        </div>
+        <nav class="navbar">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="Music.html">Music</a>
+            <a class="nav-link" href="Game.html">Game</a>
+            <a class="nav-link" href="Anime.html">Anime</a>
+            <a class="nav-link" href="Movie.html">Movie</a>
+        </nav>
+    </header>
+
+    <h1 class="content-header">Movies of 2024</h1>
+
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+
+        <!-- Dune -->
+        <div class="card" style="width: 23rem;">
+            <a href="movie/Dune.html">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Dune">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Dune: Part Two</h5>
+              <div class="card-text" style="color:#777">Paul Atreides unites with the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he endeavors to prevent a terrible future.</div>
+
+            </div>
+        </div>
+    
+        <!-- Venom -->
+        <div class="card" style="width: 23rem;">
+            <a href="movie/Venom.html">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDMyYWU4NzItZDY0MC00ODE2LTkyYTMtMzNkNDdmYmFhZDg0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="Venom">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Venom: The Last Dance</h5>
+              <div class="card-text" style="color:#777">Eddie Brock and Venom must make a devastating decision as they're pursued by a mysterious military man and alien monsters from Venom's home world.</div>
+            </div>
+        </div>
+
+    
+        <!-- Joker -->
+        <div class="card" style="width: 23rem;">
+            <a href="movie/Joker.html">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTRlNmU1NzEtODNkNC00ZGM3LWFmNzQtMjBlMWRiYTcyMGRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="Joker">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">JOKER: FOLIE À DEUX</h5>
+              <div class="card-text" style="color:#777">Struggling with his dual identity, failed comedian Arthur Fleck meets the love of his life, Harley Quinn, while incarcerated at Arkham State Hospital.</div>   
+            </div>
+        </div>
+
+        <!-- Wicked -->
+        <div class="card" style="width: 23rem;">
+            <a href="movie/Wicked.html">
+              <img src="https://dx35vtwkllhj9.cloudfront.net/universalstudios/wicked/images/regions/us/onesheet-synopsis.jpg" class="card-img-top" alt="wicked">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">Wicked: Part I</h5>
+                <div class="card-text" style="color:#777">Elphaba, a young woman ridiculed for her green skin, and Galinda, a popular girl, become friends at Shiz University in the Land of Oz. After an encounter with the Wonderful Wizard of Oz, their friendship reaches a crossroads.</div>   
+              </div>
+          </div>
+
+          <!-- Inside out -->
+        <div class="card" style="width: 23rem;">
+            <a href="movie/Inside-out.html">
+              <img src="https://lumiere-a.akamaihd.net/v1/images/p_insideout2_now_available_disneyplus_d24c051c.jpeg" class="card-img-top" alt="inside out">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">Inside Out 2</h5>
+                <div class="card-text" style="color:#777">A sequel that features Riley entering puberty and experiencing brand new, more complex emotions as a result. As Riley tries to adapt to her teenage years, her old emotions try to adapt to the possibility of being replaced.</div>   
+              </div>
+          </div>
+
+          <!-- Despicable Me 4 -->
+        <div class="card" style="width: 23rem;">
+            <a href="movie/Despicable-Me-4.html">
+              <img src="https://m.media-amazon.com/images/M/MV5BNzY0ZTlhYzgtOTgzZC00ZTg2LTk4NTEtZDllM2E2NGE5Njg2XkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Despicable Me 4">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">Despicable Me 4</h5>
+                <div class="card-text" style="color:#777">Gru, Lucy, Margo, Edith, and Agnes welcome a new member to the family, Gru Jr., who is intent on tormenting his dad. Gru faces a new nemesis in Maxime Le Mal and his girlfriend Valentina, and the family is forced to go on the run.</div>   
+              </div>
+          </div>
+
+          <!-- Moana 2 -->
+        <div class="card" style="width: 23rem;">
+            <a href="movie/Moana.html">
+              <img src="https://m.media-amazon.com/images/M/MV5BZDUxNThhYTUtYjgxNy00MGQ4LTgzOTEtZjg1YTU5NTcwNThlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="moana">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">Moana 2</h5>
+                <div class="card-text" style="color:#777">After receiving an unexpected call from her wayfinding ancestors, Moana must journey to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.</div>   
+              </div>
+          </div>
+
+          <!-- Alien: Romulus -->
+        <div class="card" style="width: 23rem;">
+            <a href="movie/Alien-Romulus.html">
+              <img src="https://m.media-amazon.com/images/M/MV5BMDU0NjcwOGQtNjNjOS00NzQ3LWIwM2YtYWVmODZjMzQzN2ExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="alein">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">Alien: Romulus</h5>
+                <div class="card-text" style="color:#777">While scavenging the deep ends of a derelict space station, a group of young space colonists come face to face with the most terrifying life form in the universe.</div> 
+              </div>
+          </div>
+
+          <!-- The Substance -->
+        <div class="card" style="width: 23rem;">
+            <a href="movie/The-Substance.html">
+              <img src="https://m.media-amazon.com/images/M/MV5BMWJkNjdmMzctZTk2YS00MDE1LWI0ZTEtNzc3OTEzNGJjZjE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="substance">
+            </a>
+              <div class="card-body">
+                <h5 class="card-title">The Substance</h5>
+                <div class="card-text" style="color:#777">A fading celebrity takes a black-market drug: a cell-replicating substance that creates a younger, better version of herself.</div>   
+              </div>
+          </div>
+
+    </div>
+
+    
+    <footer> &copy; 2025 Crab Review - All Rights Reserved </footer>
+</body>
+
+</html>
